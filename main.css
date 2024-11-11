@@ -17,14 +17,16 @@ a:link, a:visited {
 
 a:focus, a:hover {
 	background-color: #ddddff;
+	border-style: solid;
 	border-radius: 5px;
-	text-decoration: underline;
 	transition-duration: 0.2s;
 	transition-property: background;
 }
 
 body {
-
+	line-height: 145%;  
+	margin-bottom: 1em;
+	text-align: left;
 }
 
 code {
@@ -32,15 +34,15 @@ code {
 }
 
 h1, h2, h3 {
-
+	text-decoration: underline;
 }
 
 h1 {
-
+	line-height: 145%;
 }
 
 h2 {
-
+	text-indent: 4em;
 }
 
 h3 {
@@ -48,15 +50,18 @@ h3 {
 }
 
 header {
-	
+	font-size: 25px;
 }
 
 main {
-
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+	max-width: 50%;
 }
 
 p {
-
+	font-family: "Times New Roman", Times, serif;
+	text-decoration: underline;
 }
 
 #intro {
@@ -65,4 +70,8 @@ p {
 
 #how-does-it-work, #influence, #joke {
 
+}
+
+.first-paragraph {
+	text-indent: 4em;
 }
